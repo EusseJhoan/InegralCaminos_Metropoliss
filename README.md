@@ -6,28 +6,22 @@ Este código implementa el algoritmo de Metroplis para calcular la energía prom
 
 ## Autores
 
-    Lucas Quiceno
-    Jhoan Eusse
+* Lucas Quiceno
+* Jhoan Eusse
+
 
 ## Archivos
 
-    [IntegralCaminos_Metropolis.ipynb:](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/IntegralCaminos_Metropolis.ipynb) Notebook principal con el código fuente.
-    N20.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20 pasos de Metropolis.
-    N200.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200 pasos de Metropolis.
-    N2000.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 2000 pasos de Metropolis.
-    N20000.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20000 pasos de Metropolis.
-    N200000.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200000 pasos de Metropolis.
-
-## Instalación
-
-Las siguientes librerías son necesarias para ejecutar el código:
-
-    NumPy
-    Matplotlib
+* [IntegralCaminos_Metropolis.ipynb: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/IntegralCaminos_Metropolis.ipynb) Notebook principal con el código fuente.
+* [N20.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N20.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20 pasos de Metropolis.
+* [N200.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N200.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200 pasos de Metropolis.
+* [N2000.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N2000.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 2000 pasos de Metropolis.
+* [N20000.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N20000.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20000 pasos de Metropolis.
+* [N200000.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N200000.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200000 pasos de Metropolis.
 
 ## Ejecución
 
-Para ejecutar el código, abre el notebook main.ipynb en un entorno Jupyter Notebook o JupyterLab. Luego, ejecuta las celdas en orden.
+Para ejecutar el código, abre el notebook [IntegralCaminos_Metropolis.ipynb ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/IntegralCaminos_Metropolis.ipynb) en un entorno Jupyter Notebook o JupyterLab. Luego, ejecuta las celdas en orden.
 
 ## Conclusiones
 
