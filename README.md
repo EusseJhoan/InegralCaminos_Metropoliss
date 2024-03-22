@@ -11,7 +11,7 @@ Este código implementa el algoritmo de Metroplis para calcular la energía prom
 
 ## Archivos
 
-    main.ipynb: Notebook principal con el código fuente.
+    [IntegralCaminos_Metropolis.ipynb:](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/IntegralCaminos_Metropolis.ipynb) Notebook principal con el código fuente.
     N20.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20 pasos de Metropolis.
     N200.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200 pasos de Metropolis.
     N2000.png: Gráfica de la energía promedio y el error en la energía promedio para un máximo de 2000 pasos de Metropolis.
@@ -29,13 +29,6 @@ Las siguientes librerías son necesarias para ejecutar el código:
 
 Para ejecutar el código, abre el notebook main.ipynb en un entorno Jupyter Notebook o JupyterLab. Luego, ejecuta las celdas en orden.
 
-## Resultados
-
-El código genera varias gráficas que muestran los resultados del PIMC:
-
-    La energía promedio en función de la temperatura inversa (beta).
-    El error en la energía promedio en función del número de pasos de Metropolis.
-
 ## Conclusiones
 
-El código muestra que el PIMC puede utilizarse para calcular con precisión la energía promedio de un oscilador armónico cuántico. El error en la energía promedio disminuye a medida que se aumenta el número de pasos de Metropolis.
+La implementación del algoritmo de Metropolis-Hasting para calcular numéricamente la integral de caminos para un oscilador armónico. Observamos que, alrededor de 20,000 iteraciones, el error en nuestra estimación se vuelve bajo y el método se estabiliza; lo que demuestra que el algoritmo Metropolis-Hastings es efectivo para aproximar la integral de camino en sistemas cuánticos y que a mayor recursos computacionales mejores resultados se obtienen.
