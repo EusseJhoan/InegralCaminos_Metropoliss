@@ -25,4 +25,4 @@ Para ejecutar el código, abre el notebook [IntegralCaminos_Metropolis.ipynb ](h
 
 ## Conclusiones
 
-La implementación del algoritmo de Metropolis-Hasting para calcular numéricamente la integral de caminos para un oscilador armónico. Observamos que, alrededor de 20,000 iteraciones, el error en nuestra estimación se vuelve bajo y el método se estabiliza; lo que demuestra que el algoritmo Metropolis-Hastings es efectivo para aproximar la integral de camino en sistemas cuánticos y que a mayor recursos computacionales mejores resultados se obtienen.
+La implementación del algoritmo de Metropolis-Hasting para calcular numéricamente la integral de caminos para un oscilador armónico. Observamos que, alrededor de 20000 iteraciones, el error en nuestra estimación se vuelve bajo y el método se estabiliza; lo que demuestra que el algoritmo Metropolis-Hastings es efectivo para aproximar la integral de camino en sistemas cuánticos y que a mayor recursos computacionales mejores resultados se obtienen.
