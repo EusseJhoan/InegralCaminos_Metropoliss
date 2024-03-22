@@ -2,7 +2,7 @@
 
 ## Resumen
 
-Este código implementa el algoritmo de Metroplis para calcular la energía promedio de un oscilador armónico cuántico a diferentes temperaturas usando integrlaes de caminos. El código utiliza el algoritmo Metropolis-Hastings para simular trayectorias de la partícula y calcular la energía promedio de estas trayectorias. Se grafican y comparan los resultados del algoritmo con el valor exacto de la energía obtenido para diferente números de pasos máximos de Metroplis.
+Este código implementa el algoritmo de Metroplis para calcular la energía promedio de un oscilador armónico cuántico a diferentes temperaturas usando integrales de caminos. El código utiliza el algoritmo Metropolis-Hastings para simular trayectorias de la partícula y calcular la energía promedio de estas trayectorias. Se grafican y comparan los resultados del algoritmo con el valor exacto de la energía obtenido para diferente números de pasos máximos de Metroplis.
 
 ## Autores
 
