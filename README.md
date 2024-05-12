@@ -1,28 +1,27 @@
-# Radiación electromagnética en la tierra usando m ́etodos de Montecarlo y optimización en paralelo
+Integrales de camino usando Algoritmo de Metropolis
 
 ## Resumen
 
-El presente proyecto desarrolla un algoritmo basado en el método de Montecarlo para estimar la radiación solar que alcanza la atmósfera terrestre con programación en paralelo utilizando MPI para Python.
+Este código implementa el algoritmo de Metroplis para calcular la energía promedio de un oscilador armónico cuántico a diferentes temperaturas usando integrales de caminos. El código utiliza el algoritmo Metropolis-Hastings para simular trayectorias de la partícula y calcular la energía promedio de estas trayectorias. Se grafican y comparan los resultados del algoritmo con el valor exacto de la energía obtenido para diferente números de pasos máximos de Metroplis.
 
 ## Autores
 
 * Lucas Quiceno
 * Jhoan Eusse
 
-
 ## Archivos
 
-* [Plots.ipynb: ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/Plots.ipynb) Notebook para graficar los datos obtenidos en los diferentes scripts.
-* [SerialMontecarlo.py: ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/SerialMontecarlo.py) Script para calcular la irradiancia usando computación en serie.
-* [ParallelMontecarlo.py: ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/ParallelMontecarlo.py) Script para calcular la irradiancia usando computación en paralelo.
-* [Local_Plot.png: ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/Local_Plot.png) Gráfica del tiempo computacional y el error relativo para la irradiancia en computador personal.
-* [Server_Plot.png: ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/Server_Plot.png) Gráfica del tiempo computacional y el error relativo para la irradiancia en servidor.
-
+* [IntegralCaminos_Metropolis.ipynb: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/IntegralCaminos_Metropolis.ipynb) Notebook principal con el código fuente.
+* [N20.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N20.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20 pasos de Metropolis.
+* [N200.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N200.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200 pasos de Metropolis.
+* [N2000.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N2000.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 2000 pasos de Metropolis.
+* [N20000.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N20000.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 20000 pasos de Metropolis.
+* [N200000.png: ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/N200000.png) Gráfica de la energía promedio y el error en la energía promedio para un máximo de 200000 pasos de Metropolis.
 
 ## Ejecución
 
-Se deben ejecutar los scripts [SerialMontecarlo.py ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/SerialMontecarlo.py) y [ParallelMontecarlo.py ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/ParallelMontecarlo.py) para obtener los datos de la irradiancia. Con el Notebook [Plots.ipynb ](https://github.com/EusseJhoan/Irradiacia_Paralelo/blob/main/Plots.ipynb) de Jupyter se grafican los resultados obtenidos en los scripts
+Para ejecutar el código, abre el notebook [IntegralCaminos_Metropolis.ipynb ](https://github.com/EusseJhoan/InegralCaminos_Metropoliss/blob/main/IntegralCaminos_Metropolis.ipynb) en un entorno Jupyter Notebook o JupyterLab. Luego, ejecuta las celdas en orden.
 
 ## Conclusiones
 
-Usando métodos de Montecarlo con computación en paralelo se obtiene un valor de irradiancia de $4238~ W/m^2$. Este resultado no coincide con el valor teórico esperado debido a las incertidumbres que se tienen respecto al valor teórico de referencia. Nuestros resultados indican que la computación en paralelo reduce  significativamente el tiempo de cómputo. Esto es una ventaja considerable para problemas de gran escala o para situaciones donde el tiempo de respuesta es crítico. Para nuestro caso particular observamos que la convergencia del cálculo se alcanza rápidamente. Esto implica que, para nuestro problema específico, la implementación de métodos en paralelo puede no ser demasiado útil. 
+La implementación del algoritmo de Metropolis-Hasting para calcular numéricamente la integral de caminos para un oscilador armónico. Observamos que, alrededor de 20000 iteraciones, el error en nuestra estimación se vuelve bajo y el método se estabiliza; lo que demuestra que el algoritmo Metropolis-Hastings es efectivo para aproximar la integral de camino en sistemas cuánticos y que a mayor recursos computacionales mejores resultados se obtienen.
