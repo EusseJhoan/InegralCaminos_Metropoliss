@@ -1,4 +1,4 @@
-Integrales de camino usando Algoritmo de Metropolis
+# Integrales de camino usando Algoritmo de Metropolis
 
 ## Resumen
 
